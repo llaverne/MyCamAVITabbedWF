@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tabs>
+  <Tab tabName="tab1" tabTitle="Garden 1">
+    <MyCam Disconnected="true" camIndex="0" Period="1" FrameCount="1" PeriodMultiplier="0" NamePrefix="Camera 1" AddFrameCount="true" AddDateTime="false" SnapshotFormat="0" SnapshotResolution="0" SnapshotPath="C:\Pictures" EnableAutoCapture="false" />
+  </Tab>
+</Tabs>

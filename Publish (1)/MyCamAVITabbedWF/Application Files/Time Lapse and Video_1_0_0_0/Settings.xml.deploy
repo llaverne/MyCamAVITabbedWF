@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tabs>
+  <Tab tabName="tab1" tabTitle="Front Window">
+    <MyCam Disconnected="true" camIndex="0" Period="1" FrameCount="1" PeriodMultiplier="1" NamePrefix="Front Window Cam" AddFrameCount="true" AddDateTime="false" SnapshotFormat="0" SnapshotResolution="0" SnapshotPath="C:\Pictures" EnableAutoCapture="false" EnableDateTime="true" />
+    <Labels>
+      <Label Input="A0" Text="Air Temp" Font="" FontSize="" FontColor="" HorizontalDivision="2" VerticalDivision="10" DisplayMode="" DisplayHighValue="" DisplayLowValue="" DataHighAlertValue="" DataHighAlertFontSize="" DataHighAlertFontColor="" DataLowAlertValue="" DataLowAlertFontSize="" DataLowAlertFontColor="" Enabled="true" />
+      <Label Input="A1" Text="Water Temp" Font="" FontSize="" FontColor="" HorizontalDivision="9" VerticalDivision="10" DisplayMode="" DisplayHighValue="" DisplayLowValue="" DataHighAlertValue="" DataHighAlertFontSize="" DataHighAlertFontColor="" DataLowAlertValue="" DataLowAlertFontSize="" DataLowAlertFontColor="" Enabled="true" />
+      <Label Input="Text" Text="Test User text" Font="" FontSize="" FontColor="" HorizontalDivision="4" VerticalDivision="1" DisplayMode="" DisplayHighValue="" DisplayLowValue="" DataHighAlertValue="" DataHighAlertFontSize="" DataHighAlertFontColor="" DataLowAlertValue="" DataLowAlertFontSize="" DataLowAlertFontColor="" Enabled="true" />
+      <Label Input="DateTime" Text="Time" Font="" FontSize="" FontColor="" HorizontalDivision="4" VerticalDivision="1" DisplayMode="" DisplayHighValue="" DisplayLowValue="" DataHighAlertValue="" DataHighAlertFontSize="" DataHighAlertFontColor="" DataLowAlertValue="" DataLowAlertFontSize="" DataLowAlertFontColor="" Enabled="true" />
+    </Labels>
+  </Tab>
+</Tabs>
