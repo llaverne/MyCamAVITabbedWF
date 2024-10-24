@@ -841,6 +841,9 @@ namespace MyIPCamAVIControl
                 EnableDateTime = false;
         }
 
-
+        private void txtResetFrameCounter_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            txtResetFrameCounter.Text = "1";
+        }
     }
 }

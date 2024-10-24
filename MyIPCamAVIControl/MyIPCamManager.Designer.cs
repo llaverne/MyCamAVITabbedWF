@@ -115,7 +115,7 @@
             this.chkAddDateTime.AutoSize = true;
             this.chkAddDateTime.Location = new System.Drawing.Point(265, 93);
             this.chkAddDateTime.Name = "chkAddDateTime";
-            this.chkAddDateTime.Size = new System.Drawing.Size(15, 14);
+            this.chkAddDateTime.Size = new System.Drawing.Size(28, 27);
             this.chkAddDateTime.TabIndex = 12;
             this.chkAddDateTime.UseVisualStyleBackColor = true;
             // 
@@ -134,7 +134,7 @@
             this.chkEnableAutoCapture.Enabled = false;
             this.chkEnableAutoCapture.Location = new System.Drawing.Point(11, 23);
             this.chkEnableAutoCapture.Name = "chkEnableAutoCapture";
-            this.chkEnableAutoCapture.Size = new System.Drawing.Size(59, 17);
+            this.chkEnableAutoCapture.Size = new System.Drawing.Size(72, 27);
             this.chkEnableAutoCapture.TabIndex = 6;
             this.chkEnableAutoCapture.Text = "Enable";
             this.chkEnableAutoCapture.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@
             this.chkDateTime.AutoSize = true;
             this.chkDateTime.Location = new System.Drawing.Point(265, 47);
             this.chkDateTime.Name = "chkDateTime";
-            this.chkDateTime.Size = new System.Drawing.Size(116, 17);
+            this.chkDateTime.Size = new System.Drawing.Size(129, 27);
             this.chkDateTime.TabIndex = 9;
             this.chkDateTime.Text = "Overlay Date/Time";
             this.chkDateTime.UseVisualStyleBackColor = true;
@@ -231,13 +231,14 @@
             this.txtResetFrameCounter.Text = "1";
             this.txtResetFrameCounter.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtResetFrameCounter.Leave += new System.EventHandler(this.txtResetFrameCounter_Leave);
+            this.txtResetFrameCounter.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtResetFrameCounter_MouseDoubleClick);
             // 
             // chkAddFrameCount
             // 
             this.chkAddFrameCount.AutoSize = true;
             this.chkAddFrameCount.Location = new System.Drawing.Point(265, 76);
             this.chkAddFrameCount.Name = "chkAddFrameCount";
-            this.chkAddFrameCount.Size = new System.Drawing.Size(15, 14);
+            this.chkAddFrameCount.Size = new System.Drawing.Size(28, 27);
             this.chkAddFrameCount.TabIndex = 10;
             this.chkAddFrameCount.UseVisualStyleBackColor = true;
             // 
@@ -398,7 +399,7 @@
             this.chkInvertImage.AutoSize = true;
             this.chkInvertImage.Location = new System.Drawing.Point(20, 107);
             this.chkInvertImage.Name = "chkInvertImage";
-            this.chkInvertImage.Size = new System.Drawing.Size(85, 17);
+            this.chkInvertImage.Size = new System.Drawing.Size(98, 27);
             this.chkInvertImage.TabIndex = 32;
             this.chkInvertImage.Text = "Invert Image";
             this.chkInvertImage.UseVisualStyleBackColor = true;
@@ -471,14 +472,14 @@
             // 
             this.ToolTip1.IsBalloon = true;
             // 
-            // MyCamManager
+            // MyIPCamManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.AForgeVideoSourcePlayer);
             this.Controls.Add(this.groupBox2);
-            this.Name = "MyCamManager";
+            this.Name = "MyIPCamManager";
             this.Size = new System.Drawing.Size(644, 696);
             this.Load += new System.EventHandler(this.ManageCamera_Load);
             this.groupBox1.ResumeLayout(false);

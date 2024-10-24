@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCamAVITabbedWF", "MyCamAV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCamAVIControl", "..\MyCamAVIControl\MyCamAVIControl\MyCamAVIControl.csproj", "{850FC450-C5CB-4E3F-876C-0437C0C82151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyIPCamAVIControl", "MyIPCamAVIControl\MyIPCamAVIControl.csproj", "{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,18 +38,6 @@ Global
 		{850FC450-C5CB-4E3F-876C-0437C0C82151}.Release|Mixed Platforms.Build.0 = Release|x86
 		{850FC450-C5CB-4E3F-876C-0437C0C82151}.Release|x86.ActiveCfg = Release|x86
 		{850FC450-C5CB-4E3F-876C-0437C0C82151}.Release|x86.Build.0 = Release|x86
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Debug|x86.Build.0 = Debug|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Release|x86.ActiveCfg = Release|Any CPU
-		{DDF7796E-1CA1-4AD7-AC7B-CDC7C44E6018}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

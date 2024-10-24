@@ -10,7 +10,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Xml;
 using System.Xml.XPath;
-using MyIPCamAVIControl;
 using MyCamAVIControl;
 
 namespace MyCamAVITabbedWF
@@ -121,10 +120,12 @@ namespace MyCamAVITabbedWF
 
                     navTABs.MoveToParent();
 
+
                     // Setup user control:
                     navTABs.MoveToFirstChild(); // Move to MyCam node.
-                        
-                        MyCamManager ctrlMyCAMAVI = new MyCamManager();
+
+                    MyCamManager ctrlMyCAMAVI = new MyCamManager();
+
                         ctrlMyCAMAVI.Name = "ctrlMyCAMAVI";
 
                         navTABs.MoveToFirstAttribute(); // Disconnected
@@ -194,7 +195,7 @@ namespace MyCamAVITabbedWF
                 csAddTabPageControls(newTabPage, _frmTabText.TabText);
 
                 // Populate TAB with user control & Add/Delete buttons:
-                MyCamManager ctrlMyCAMAVI = new MyCamManager();
+                MyCamManager ctrlMyCAMAVI = new MyCamAVIControl.MyCamManager();
                 ctrlMyCAMAVI.Name = "ctrlMyCAMAVI"; // 'cause we'll reference it by name later.
                 newTabPage.Controls.Add(ctrlMyCAMAVI);
             }

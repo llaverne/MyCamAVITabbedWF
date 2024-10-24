@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,11 +10,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyCamAVITabbedWF</RootNamespace>
     <AssemblyName>Time Lapse and Video</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
-    <PublishUrl>F:\~ Apps\WebCamAvi\</PublishUrl>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>D:\OneDrive\~ Projects\MyCamAVITabbedWF\Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -46,15 +47,18 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>F33F8FD11157AB5B7BA50236C7E7BEDF8634A2A2</ManifestCertificateThumbprint>
@@ -270,10 +274,6 @@
     <ProjectReference Include="..\..\MyCamAVIControl\MyCamAVIControl\MyCamAVIControl.csproj">
       <Project>{850fc450-c5cb-4e3f-876c-0437c0c82151}</Project>
       <Name>MyCamAVIControl</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyIPCamAVIControl\MyIPCamAVIControl.csproj">
-      <Project>{ddf7796e-1ca1-4ad7-ac7b-cdc7c44e6018}</Project>
-      <Name>MyIPCamAVIControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
